@@ -1,0 +1,12 @@
+[package]
+name = "crypticserver"
+version = "0.1.0"
+authors = ["Bill Murphy <bill.murphy@defpoint.com>"]
+
+[dependencies]
+libc = "0.2.7"
+bufstream = "0.1.1"
+daemonize = "0.2.1"
+
+[dependencies.rustydagger]
+git = "https://github.com/defpoint/RustyDagger.git"

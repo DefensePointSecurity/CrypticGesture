@@ -1,0 +1,12 @@
+[package]
+name = "crypticclient"
+version = "0.1.0"
+authors = ["Bill Murphy <bill.murphy@defpoint.com>"]
+
+[dependencies]
+libc = "0.1.12"
+getopts = "0.2.14"
+chrono = "0.2.19"
+
+[dependencies.rustydagger]
+git = "http://github.com/defpoint/RustyDagger.git"
